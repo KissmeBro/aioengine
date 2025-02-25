@@ -94,3 +94,7 @@ if __name__ == "__main__":
   - [`exceptions.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/exceptions.py)  
 
 --- 
+## Installation:
+```bash
+pip install aioengine-python
+```
