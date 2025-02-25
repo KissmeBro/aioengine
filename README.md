@@ -82,11 +82,11 @@ if __name__ == "__main__":
 ---
 
 ## 📂 Project Structure  
-- `aioengine/`
+- [`aioengine/`](https://github.com/KissmeBro/aioengine/blob/main/aioengine)
   - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/__init__.py)
   - `engines/`
     - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/__init__.py)
-    - `google/`
+    - [`google/`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google)
       - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/__init__.py)
       - [`google.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/google.py)
       - [`network.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/network.py)
