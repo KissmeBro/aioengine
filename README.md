@@ -1,3 +1,4 @@
+
 <p align="center">
   <table>
     <tr>
@@ -75,3 +76,21 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 📂 **Directory:** [example_google_2.py](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_2.py)  
+
+<br>
+
+---
+
+## 📂 Project Structure  
+- `aioengine/`
+  - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/__init__.py)
+  - `engines/`
+    - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/__init__.py)
+    - `google/`
+      - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/__init__.py)
+      - [`google.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/google.py)
+      - [`network.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/network.py)
+      - [`parser.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines/google/parser.py)
+  - [`exceptions.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/exceptions.py)  
+
+--- 
