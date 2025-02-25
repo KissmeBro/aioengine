@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aioengine"
+version = "0.1.0"
+description = "Asynchronous engine for search engines"
+authors = ["stome manybot.00@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["aioengine", "search"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8"
+requests = "^2.25"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
