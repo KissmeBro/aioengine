@@ -49,7 +49,7 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-📂 **Directory:** [example_google_1.py](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_1.py)  
+📂 **Directory:** [`example_google_1.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_1.py)  
 
 <br>
 
@@ -75,7 +75,7 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-📂 **Directory:** [example_google_2.py](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_2.py)  
+📂 **Directory:** [`example_google_2.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_2.py)  
 
 <br>
 
@@ -98,3 +98,8 @@ if __name__ == "__main__":
 ```bash
 pip install aioengine-python
 ```
+
+## ApiKey & CseId
+Get [Api key](https://developers.google.com/custom-search/v1/introduction)
+<br>
+Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
