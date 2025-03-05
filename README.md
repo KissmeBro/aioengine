@@ -102,8 +102,8 @@ Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
 ---
 
 ## 🔎 Custom Search
-- html `https://cse.google.com/cse?cx=CSE_ID`
-- docs [Google Api Documents](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?apix=true)
+- Web `https://cse.google.com/cse?cx=CSE_ID`
+- Docs [Google Api Documents](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?apix=true)
 
 ---
 
