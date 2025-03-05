@@ -99,9 +99,14 @@ if __name__ == "__main__":
 Get [Api key](https://developers.google.com/custom-search/v1/introduction)
 <br>
 Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
+<br>
 
 ---
 
+## Custom Search
+- html `https://cse.google.com/cse?cx=CSE_ID`
+- json `https://www.googleapis.com/customsearch/v1?q=QUESTION&cx=CSE_ID&key=API_KEY`
+- docs [Google Api Documents](t)
 ## 📥 Installation:
 ```bash
 pip install aioengine-python
