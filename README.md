@@ -104,9 +104,9 @@ Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
 ---
 
 ## Custom Search
-- html `https://cse.google.com/cse?cx=CSE_ID`
+- html `<p style="text-size: 19px;>https://cse.google.com/cse?cx=CSE_ID<p>`
 - json `https://www.googleapis.com/customsearch/v1?q=QUESTION&cx=CSE_ID&key=API_KEY`
-- docs [Google Api Documents](t)
+- docs [Google Api Documents](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?apix=true)
 ## 📥 Installation:
 ```bash
 pip install aioengine-python
