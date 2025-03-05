@@ -1,4 +1,3 @@
-
 <p align="center">
   <table>
     <tr>
@@ -14,20 +13,19 @@
   </table>
 </p>
 
-# aioengine  
-
+# aioengine
 > An asynchronous library for using search engines in Python.  
 
-## ⭐ Features  
+## ⭐ Features
 - ✅ **Asynchronous**  
 - 🚀 **Simple**  
 - 📈 **Scalable**  
 
 ---
 
-## 📌 Examples  
+## 📌 Examples
 
-### 🔹 Example 1  
+### 🔹 Example 1
 ```python
 import asyncio
 from aioengine import GoogleEngine, EngineError
@@ -49,11 +47,11 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-📂 **Directory:** [`example_google_1.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_1.py)  
+📂 **Directory:** [`example_google_1.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_1.py)
 
 <br>
 
-### 🔹 Example 2  
+### 🔹 Example 2
 ```python
 import asyncio
 from aioengine import GoogleEngine, EngineError
@@ -75,13 +73,13 @@ async def main():
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-📂 **Directory:** [`example_google_2.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_2.py)  
+📂 **Directory:** [`example_google_2.py`](https://github.com/KissmeBro/aioengine/blob/main/examples/example_google_2.py)
 
 <br>
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 - [`aioengine/`](https://github.com/KissmeBro/aioengine/blob/main/aioengine)
   - [`__init__.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/__init__.py)
   - [`engines/`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/engines)
@@ -103,10 +101,12 @@ Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
 
 ---
 
-## Custom Search
-- html `<p style="text-size: 19px;>https://cse.google.com/cse?cx=CSE_ID<p>`
-- json `https://www.googleapis.com/customsearch/v1?q=QUESTION&cx=CSE_ID&key=API_KEY`
+## 🔎 Custom Search
+- html `https://cse.google.com/cse?cx=CSE_ID`
 - docs [Google Api Documents](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?apix=true)
+
+---
+
 ## 📥 Installation:
 ```bash
 pip install aioengine-python
