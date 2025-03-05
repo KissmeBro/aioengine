@@ -94,12 +94,12 @@ if __name__ == "__main__":
   - [`exceptions.py`](https://github.com/KissmeBro/aioengine/blob/main/aioengine/exceptions.py)  
 
 --- 
-## Installation:
+## 📥 Installation:
 ```bash
 pip install aioengine-python
 ```
 
-## ApiKey & CseId
+## 🔐 ApiKey & CseId
 Get [Api key](https://developers.google.com/custom-search/v1/introduction)
 <br>
 Get [Cse id](https://programmablesearchengine.google.com/controlpanel/create)
